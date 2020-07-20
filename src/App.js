@@ -9,7 +9,6 @@ class App extends React.Component {
 
   componentDidMount() {
     this.fetchAdvice();
-    console.log('COMPONENT DID MOUNT')
   }
 
   fetchAdvice = () =>{
